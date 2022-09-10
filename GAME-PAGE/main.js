@@ -417,7 +417,7 @@ function sendInput() {
 
       let failText = document.createElement("p");
       failText.textContent =
-        "_POL: I failed, didn't I? Don't worry, you'll be fine. Uhhh, try starting off with /question._";
+        "POL: I failed, didn't I? Don't worry, you'll be fine. Uhhh, try starting off with /question.";
       terminalResultsCont.append(failText);
       break;
     case "/question":
