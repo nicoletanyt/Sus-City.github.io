@@ -417,7 +417,7 @@ function sendInput() {
 
       let failText = document.createElement("p");
       failText.textContent =
-        "POL: I failed, didn't I? Don't worry, you'll be fine. Uhhh, try starting off with /question.";
+        "_POL: I failed, didn't I? Don't worry, you'll be fine. Uhhh, try starting off with /question._";
       terminalResultsCont.append(failText);
       break;
     case "/question":
@@ -682,7 +682,7 @@ function sendInput() {
           case 2:
             imageOverlay5.src = "/DEVELOPMENT-PROJ-SERVE/DEV-LANDFILL-1.png";
             sayText(
-              "CAS: Ah, recycling bins. A very minor change, and yet this would can have a rather large impact in the long-run. As long as they do it right, of course. If the materials they try to recycle are contaminated by food waste or human pieces, they can’t be used to recycle. However, if they ensure that everything they throw in these bins are not contaminated, they help preseve natural resources for longer, and reduce their carbon footprint."
+              "CAS: Ah, bins. A very minor change, and yet this would can have a rather large impact in the long-run. As long as they do it right, of course. If the materials they try to recycle are contaminated by food waste or human pieces, they can’t be used to recycle. However, if they ensure that everything they throw in these bins are not contaminated, they help preseve natural resources for longer, and reduce their carbon footprint."
             );
             sayText(
               "POL: The logic behind this Development is its convenciency, isn’t it? User, did you know that the reason why so many humans don’t recycle is because they find it tedious. They dislike the entire process, from cleaning trash to finding bins. Luckily, Divine Entities like us are much smarter, and we have allowed you to integrate a convenient Development! Now, the humans need barely any motivation! If they do, well, I would be honoured to provide some incentives for them."
