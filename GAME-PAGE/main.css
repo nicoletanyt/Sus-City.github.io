@@ -227,16 +227,16 @@ body {
 } */
 
 #city-image {
-  width: auto;
+  width: 60vw;
   height: inherit;
   position: absolute;
   z-index: 0;
 }
 .overlay-image {
-  position: absolute;
+  position: inherit;
   top: 0;
   left: 0;
-  width: auto;
+  width: inherit;
   height: inherit;
   z-index: 1;
 }
