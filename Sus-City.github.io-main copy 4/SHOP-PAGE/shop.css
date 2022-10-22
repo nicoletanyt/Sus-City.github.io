@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: #f3e3ca;
+  height: 100%;
+}
+
+.TopBorder {
+  background-color: #648c87;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1.1350737797956867vh;
+  height: 10%;
+}
+
+.Title {
+  font-size: 40px;
+  font-size: 2.9vw;
+  /* margin-right: 22.701475595913735vh;
+  margin-left: 2.2701475595913734vh; */
+  opacity: 0.42;
+  position: absolute;
+  margin-left: 6%;
+  margin-right: 10%;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f3e3ca;
+  /* padding-bottom: 22.701475595913735vh; */
+  height: 65.81296758104739vh;
+  width: auto;
+}
+
+.Productcont {
+  padding: 10px;
+  display: flex;
+  background-color: #476a5d;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5.675368898978434vh;
+  text-align: center;
+  font-family: arial;
+  border-radius: 12px;
+  /* height: 75vh; */
+  width: 48%;
+  /* max-width: 102.56.25vw;
+  min-height: 45.40295119182747vh; */
+}
+
+.Info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 3px solid white; */
+  color: black;
+  /* padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+  /* padding: 5%; */
+}
+
+.Buybtn:hover {
+  opacity: 0.7;
+}
+
+.Title {
+  position: relative;
+  padding: 0px, 300px;
+}
+
+.Buybtn {
+  background-color: rgb(26, 190, 78);
+  /* margin-left: 400px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+  margin: 3%;
+  padding: 3%;
+  border-radius: 12px;
+  font-size: 20px;
+  font-size: 1.3vw;
+}
+
+.DTail {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+}
+
+.Name {
+  color: rgb(0, 0, 0);
+  align-items: center;
+  position: sticky;
+  font-size: x-large;
+  font-size: 2.3vw;
+}
+
+.Price {
+  font-size: 30px;
+  font-size: 2.3vw;
+  color: rgb(0, 0, 0);
+}
+
+.dis {
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0;
+  background-color: rgb(219, 206, 184);
+  height: 50vh;
+}
+
+.fa-solid {
+  font-size: 6.090133982947624vh;
+  color: #000000;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  margin-left: 2%;
+}
+
+.totalCost {
+  text-align: center;
+}
+
+.GPoint,
+.Username {
+  font-size: 30px;
+  font-size: 1.7vw;
+  /* margin-left: 40px; */
+  margin-left: 10%;
+}
+
+.GPoint {
+  margin-left: 10%;
+}
+
+img {
+  /* width: 70%; */
+  height: inherit;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Serve App</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/056eae0c7b.js" crossorigin="anonymous"></script>
+
+  </script>
+</head>
+
+<body>
+  <!--top menu bar-->
+  <div class="top-menu-bar">
+    <!-- back to login page -->
+    <button class=" fa-solid fa-right-from-bracket btn" id="return">
+    </button>
+    <!--env sus bar-->
+    <div class="env-sus-bar">
+      <div class="circle"></div>
+      <div class="rectangle">
+        <div class="level-progress"></div>
+      </div>
+    </div>
+
+    <button class="fa-solid fa-shop" onclick="" class="shop btn">
+    </button>
+
+
+    <!--shop-->
+    <div class="GPoint"></div>
+    <!--setting-->
+    <div class="favour"></div>
+
+    <div class="username">Hello <span></span></div>
+    <!--username-->
+    <!--account-->
+  </div>
+  <div class="main-menu">
+    <div class="city-layout">
+      <img id="city-image" src="/BASE DEVELOPMENTS/BASE-0.png" alt="Image Of City">
+    </div>
+    <!--city-->
+    <!--console aka 'gods phone'-->
+    <div class="mainCont">
+      <h2>
+        <pre>
+
+___       ___     __   __        __   __        ___ 
+ |  |__| |__     /  ` /  \ |\ | /__` /  \ |    |__  
+ |  |  | |___    \__, \__/ | \| .__/ \__/ |___ |___ 
+                                                    
+                                                         
+        </pre>
+      </h2>
+      <div class="terminalCont">
+        <div class="terminalResultWrapper">
+          <div id="terminalResultsCont"></div>
+        </div>
+        <div id="inputCont">
+          <input id="terminalTextInput" type="text" placeholder="Try /help" autocomplete="off">
+          <div>
+            <button class="fa-regular fa-paper-plane" id="sendBtn"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/FIREBASE/main-firebase.js"></script>
+</body>
+<script type="module" src="main.js"></script>
+
+</html>
